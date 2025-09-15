@@ -1,0 +1,5 @@
+# Requirements pour le Générateur de Planning de Surveillance
+python>=3.8
+tkinter>=8.6
+reportlab>=3.6
+pandas>=1.3

@@ -1,0 +1,19 @@
+Instructions d'installation et d'exécution
+==========================================
+
+1. Installation des dépendances :
+   pip install -r requirements.txt
+
+2. Exécution du programme :
+   python src/main.py
+
+3. Fonctionnalités :
+   - Importer les fichiers CSV (Planning.csv et Surveillants.csv)
+   - Importer la liste des surveillants
+   - Générer le planning automatiquement
+   - Exporter en PDF/CSV
+   - Générer les convocations individuelles
+
+4. Fichiers d'entrée requis :
+   - Planning.csv avec les colonnes: DATE, HEURE, LOCAL, FILIERE - SEMESTRE - MODULE, NOM ET PRENOM, QUALITE, Statut
+   - Surveillants.csv avec les colonnes: NOM ET PRENOM, Statut
